@@ -1,0 +1,123 @@
+#home{
+    background-image: url(screenshots/background.jpg);
+    background-position: center center;
+    background-color: darkred;
+    background-size: cover;
+    background-attachment:scroll;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    
+    
+}
+
+  
+  .page {
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-attachment:scroll;
+  background-color: darkred;
+  min-height: 100vh;
+   }
+
+.font-palanquin_dark{
+    font-family:'Palanquin Dark',cursive;
+}
+
+.font-inconsolata{
+    font-family: 'Inconsolata',cursive;
+    font-size: 20px;
+
+}
+
+.font-arimo-400i{
+    font-family: 'Arimo';
+    font-weight: 400;
+    font-style: italic;
+}
+
+.font-arimo-400{
+    font-family: 'Arimo';
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar-style{
+    
+    border: none;
+    border-radius: none;
+    
+    
+}
+
+.navbar-style .navbar-brand:hover,
+	.navbar-inverse .navbar-brand:focus {
+    color: palevioletred;
+	}
+
+
+ .navbar-style .navbar-nav > li > a {
+    color: white;
+ 	}
+
+.navbar-style .navbar-nav > li > a:hover,
+	.navbar-inverse .navbar-nav > li > a:focus {
+    background-color: palevioletred;
+	opacity: 1;
+	}
+
+	.navbar-style .navbar-nav > .active > a,
+	.navbar-style .navbar-nav > .active > a:hover,
+	.navbar-style .navbar-nav > .active > a:focus {
+    color: white;
+    background-color: palevioletred;
+	opacity: 0.8;
+	}
+
+
+
+
+.navbar-style .navbar-brand{
+    color:white;
+}
+
+
+
+#protfolio .img {
+  
+	max-width:100%;
+	height:auto;
+	display:block;
+}
+
+
+
+  .button-send {
+  background-color: white;
+  width: 90px;
+  height: 30px;
+  padding: auto;
+  margin: 0 auto;
+  font-size: 15px;
+font-weight: 500;
+  color: black;
+  border: 2px solid black;
+       display: block;
+   }
+   
+  .button-send:hover { 
+  background-color: palevioletred;
+  color: white;
+  border: 2px solid palevioletred;
+  }
+
+
+ .fa-linkedin-square, .fa-github, .fa-codepen {
+  color: grey;
+  font-size: 30px;
+   }
+  
+  .fa-linkedin-square:hover, .fa-github:hover, .fa-codepen:hover {
+  color: palevioletred;
+   }
+
