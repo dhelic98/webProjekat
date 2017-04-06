@@ -42,44 +42,59 @@
     font-style: normal;
 }
 
-.navbar-style{
-    
-    border: none;
+.navbar-inverse {
+   
+  	border:none;
     border-radius: none;
+    opacity: 0.8;
     
-    
-}
-
-.navbar-style .navbar-brand:hover,
-	.navbar-inverse .navbar-brand:focus {
-    color: palevioletred;
 	}
 
 
- .navbar-style .navbar-nav > li > a {
+
+	.navbar-inverse .navbar-brand {
+	color: white;
+	 }
+	 
+	.navbar-inverse .navbar-brand:hover,
+	.navbar-inverse .navbar-brand:focus {
+    color: palevioletred;
+	}
+   
+    .navbar-inverse .navbar-nav > li > a {
     color: white;
  	}
 
-.navbar-style .navbar-nav > li > a:hover,
+	.navbar-inverse .navbar-nav > li > a:hover,
 	.navbar-inverse .navbar-nav > li > a:focus {
     background-color: palevioletred;
 	opacity: 1;
 	}
 
-	.navbar-style .navbar-nav > .active > a,
-	.navbar-style .navbar-nav > .active > a:hover,
-	.navbar-style .navbar-nav > .active > a:focus {
+	.navbar-inverse .navbar-nav > .active > a,
+	.navbar-inverse .navbar-nav > .active > a:hover,
+	.navbar-inverse .navbar-nav > .active > a:focus {
     color: white;
     background-color: palevioletred;
-	opacity: 0.8;
+	opacity: 1;
 	}
 
+	.navbar-inverse .navbar-text {
+    color: white;
+	}
 
+	.navbar-inverse .navbar-toggle {
+    border-color: white;
+	}
 
+	.navbar-inverse .navbar-toggle:hover,
+	.navbar-inverse .navbar-toggle:focus {
+    background-color: palevioletred;
+	}
 
-.navbar-style .navbar-brand{
-    color:white;
-}
+	.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: white;
+	}
 
 
 
@@ -100,8 +115,8 @@
   margin: 0 auto;
   font-size: 15px;
 font-weight: 500;
-  color: black;
-  border: 2px solid black;
+  color: palevioletred;
+  border: 2px solid white;
        display: block;
    }
    
@@ -114,7 +129,7 @@ font-weight: 500;
 
  .fa-linkedin-square, .fa-github, .fa-codepen {
   color: grey;
-  font-size: 30px;
+  font-size: 35px;
    }
   
   .fa-linkedin-square:hover, .fa-github:hover, .fa-codepen:hover {
